@@ -4,14 +4,43 @@
 }
 
 body {
-    background-color: rgb(152, 232, 232);
+    background-color: white;
 
 }
 
 main {
-    background-color: white;
+    background-color: rgb(198, 246, 255);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.396);
+}
+
+h1 {
+    font-size: 2.4em;
+    color: black;
+}
+
+h2 {
+    font-size: 1.2em;
+    color: rgb(68, 77, 253);
+}
+
+img.esquerda {
+    float: inline-start;
+}
+
+img.direita {
+    float: inline-end;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
 }
