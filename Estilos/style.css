@@ -10,7 +10,6 @@ body {
 
 main {
     background-color: rgb(198, 246, 255);
-    width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.396);
@@ -24,6 +23,17 @@ h1 {
 h2 {
     font-size: 1.2em;
     color: rgb(68, 77, 253);
+}
+
+header {
+    text-align: center;
+}
+
+img.centro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 img.esquerda {
