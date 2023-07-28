@@ -59,14 +59,16 @@ a {
     margin: 0px 6px;
     border: 2px solid #c8a06c;
     font-size: large;
+    text-decoration: none;
+    color: #0c2f70;
 }
 
 
-a:visited {text-decoration: none;}
+a:visited {color: purple;}
 
-a:hover {font-size: 18px; font-weight: bold; background-color:lightcyan; text-decoration: none;}
+a:hover {background-color: #5b94ff80;}
 
-a:active {font-size: 18px; font-weight: bold; background-color: steelblue; text-decoration: none; color: #0c2f70;}
+a:active {background-color: steelblue;}
 
 header {
     text-align: center;
