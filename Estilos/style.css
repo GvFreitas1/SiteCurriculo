@@ -27,8 +27,8 @@ h1 {
 
 .perfil {
     border: 4px groove #0c2f70;
-    margin-top: -160px;
-    margin-left: 550px;
+    float:inline-end;
+    margin-top: 20px;
 }
 
 
