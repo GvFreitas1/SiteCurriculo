@@ -4,53 +4,90 @@
 }
 
 body {
-    background-color: white;
+    background-color: #0c2f70;
 
 }
 
 main {
-    background-color: rgb(198, 246, 255);
+    width: 40%;
     margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.396);
+    background-color: white;
 }
 
 h1 {
-    font-size: 2.4em;
+    margin: auto;
+    font-size: 50px;
     color: black;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    border: 5px groove burlywood;
+    padding: 8px 10px;
+    background-color: white;
+    box-sizing: border-box;
 }
 
-h2 {
-    font-size: 1.2em;
-    color: rgb(68, 77, 253);
+.perfil {
+    border: 4px groove #0c2f70;
+    margin-top: -160px;
+    margin-left: 550px;
 }
+
+
+h2 {
+    margin: auto; 
+    width: 25%;
+    border: 4px solid #0c2f70;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin-bottom: 0px;
+    background-color: white;
+    font-size: 22px;
+}
+
+h2 img {vertical-align: middle;}
+
+hr {
+    height: 5px; 
+    background-color: #c8a06c;
+    border: 0px;
+    margin-bottom: -20px;
+}
+
+a {
+    display: inline-block;
+    padding: 6px;
+    margin: 0px 6px;
+    border: 2px solid #c8a06c;
+    font-size: large;
+}
+
+
+a:visited {text-decoration: none;}
+
+a:hover {font-size: 18px; font-weight: bold; background-color:lightcyan; text-decoration: none;}
+
+a:active {font-size: 18px; font-weight: bold; background-color: steelblue; text-decoration: none; color: #0c2f70;}
 
 header {
     text-align: center;
 }
 
-img.centro {
+p {
+    margin: 15px 50px;
+    font-size: 18px;
+}
+
+.break_h2 {
+    content: "";
+    margin: 30px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    font-size: 24%;
 }
 
-img.esquerda {
-    float: inline-start;
+li {
+    list-style: square inside;
+    margin-left: 30px;
 }
 
-img.direita {
-    float: inline-end;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(58, 0, 112);
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(26, 26, 255);
-}
+img {vertical-align: middle;}
