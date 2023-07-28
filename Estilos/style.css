@@ -63,9 +63,6 @@ a {
     color: #0c2f70;
 }
 
-
-a:visited {color: purple;}
-
 a:hover {background-color: #5b94ff80;}
 
 a:active {background-color: steelblue;}
