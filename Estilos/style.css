@@ -1,68 +1,75 @@
-* {
+:root {
+    --main_color: #0c2f70;
+    --side_color: burlywood;
+    --content_color: white;
+    --shadow_color: lightgrey;
+}
+
+html {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 62.5%;
 }
 
 body {
-    background-color: #0c2f70;
+    background-color: var(--main_color);
     width: 60%;
     margin: auto;
 }
 
 .header-principal {
     text-align: center;
-    background-color: white;
+    background-color: var(--content_color);
     color: black;
-    border: 5px ridge burlywood;
-    background-color: white;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    border: 5px ridge var(--side_color);
+    background-color: var(--content_color);
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     box-sizing: border-box;
     margin-top: 15px;
 }
 
 .titulo-principal {
-    font-size: 50px;
+    font-size: 5rem;
     color: black;
     font-family:'Times New Roman', Times, serif;
-    text-shadow: 3px 3px lightgrey;
+    text-shadow: 3px 3px var(--shadow_color);
     margin: 0px;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .subtitulo {
     font-family: 'Times New Roman', Times, serif;font-size: x-large;
-    text-shadow: 2px 2px lightgrey;
-    border: 3px groove #0c2f70;
+    text-shadow: 2px 2px var(--shadow_color);
+    border: 3px groove var(--main_color);
     width: fit-content;
     margin: auto;
-    padding: 8px;
+    padding: 0.8rem;
 }
 
 .perfil {
-    border: 4px groove #0c2f70;
+    border: 4px groove var(--main_color);
     float:inline-end;
     width: 100px;
 }
 
 nav {
     text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
 a {
     display: inline-block;
-    border-radius: 10px;
-    padding: 6px;
-    margin: 0px 6px;
-    border: 2px solid #0c2f70;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin: 5px 6px;
+    border: 2px solid var(--main_color);
     font-size: large;
     text-transform: uppercase;
     text-decoration: none;
     width: fit-content;
-    color: #0c2f70;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.663);
+    color: var(--main_color);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.663);
 }
 
 a:hover {
@@ -73,53 +80,62 @@ a:hover {
 a:active {background-color: steelblue;}
 
 main {
-    background-color: white;
+    background-color: var(--content_color);
 }
 
 .titulo-secao {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 25%;
     margin: auto;
-    border: 4px groove #0c2f70;
+    border: 4px groove var(--main_color);
     text-align: center;
-    padding: 5px;
+    padding: 0.5rem;
     display: block;
-    background-color: white;
-    font-size: 22px;
+    background-color: var(--content_color);
+    font-size: 2.2rem;
 }
 
 hr {
     height: 5px; 
-    background-color: #c8a06c;
+    background-color: var(--side_color);
     border: 0px;
-    margin-bottom: -23px;
+    margin-bottom: -2.3rem;
 }
 
 p {
     text-align: justify;
-    margin: 10px 40px;
-    font-size: 18px;
-    padding: 10px;
+    margin: 1rem 4rem 2rem;
+    font-size: 1.6rem;
+    padding: 1rem;
 }
 
+strong {
+    font-size: 1em;
+}
 
 ul {
-    margin-bottom: 40px;
+    margin: 2rem;
+    margin-bottom: 4rem;
 }
 
 li {
     list-style: square inside;
-    margin-left: 25px;
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
+}
+
+i {
+    font-size: 1em;
 }
 
 .experiencia {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
 }
 
 .ling-ferr {
     text-align: center;
-    margin-bottom: 12px;
-    padding: 12px;
+    margin: 1rem;
+    padding-bottom: 2rem;
 }
 
 img {vertical-align: middle;}
@@ -127,8 +143,8 @@ img {vertical-align: middle;}
 .download-curriculo {
     margin-left: auto;
     display: block;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
 }
 
 footer {
