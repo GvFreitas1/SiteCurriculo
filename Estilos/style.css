@@ -8,7 +8,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
-    font-size: 62.5%;
 }
 
 body {
@@ -22,7 +21,6 @@ body {
     background-color: var(--content_color);
     color: black;
     border: 5px ridge var(--side_color);
-    background-color: var(--content_color);
     padding-top: 1.6rem;
     padding-bottom: 1.6rem;
     box-sizing: border-box;
@@ -31,12 +29,10 @@ body {
 
 .titulo-principal {
     font-size: 5rem;
-    font-size: 5rem;
     color: black;
     font-family:'Times New Roman', Times, serif;
     text-shadow: 3px 3px var(--shadow_color);
     margin: 0px;
-    padding: 1rem;
     padding: 1rem;
 }
 
@@ -46,7 +42,6 @@ body {
     border: 3px groove var(--main_color);
     width: fit-content;
     margin: auto;
-    padding: 0.8rem;
     padding: 0.8rem;
 }
 
@@ -94,7 +89,6 @@ main {
     border: 4px groove var(--main_color);
     text-align: center;
     padding: 0.5rem;
-    padding: 0.5rem;
     display: block;
     background-color: var(--content_color);
     font-size: 2.2rem;
@@ -105,14 +99,10 @@ hr {
     background-color: var(--side_color);
     border: 0px;
     margin-bottom: -2.3rem;
-    margin-bottom: -2.3rem;
 }
 
 p {
     text-align: justify;
-    margin: 1rem 4rem 2rem;
-    font-size: 1.6rem;
-    padding: 1rem;
     margin: 1rem 4rem 2rem;
     font-size: 1.6rem;
     padding: 1rem;
